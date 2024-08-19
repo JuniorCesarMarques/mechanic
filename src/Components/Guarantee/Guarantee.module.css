@@ -1,0 +1,12 @@
+.container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container p {
+    width: 500px;
+    margin: 0 20px;
+}

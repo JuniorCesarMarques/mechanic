@@ -1,0 +1,18 @@
+.carousel {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #452543;
+    color: white;
+    text-align: center;
+  }
+  
+  .img_container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+  .img_container img {
+    width: 300px;
+  }
+  

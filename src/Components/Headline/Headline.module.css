@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.container p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.container img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #452543;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .container p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .container img {
+        width: 300px;
+    }
+}

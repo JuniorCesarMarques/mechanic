@@ -1,0 +1,46 @@
+.container {
+    background-color: #452543;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-size: 20px;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+
+.container img {
+    width: 350px;
+}
+
+.main_container_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.container_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_text {
+    width: 300px;
+}
+
+@media screen and (max-width: 649px) {
+    .container {
+        text-align: center;
+    }
+}
