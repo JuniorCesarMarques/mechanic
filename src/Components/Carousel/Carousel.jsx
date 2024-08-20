@@ -43,6 +43,7 @@ const Carousel = () => {
     }
   }, [])
 
+
   return (
     <div className={styles.carousel}>
     <h1 className={styles.title}>Alguns dos modelos disponíveis e +40:</h1>
