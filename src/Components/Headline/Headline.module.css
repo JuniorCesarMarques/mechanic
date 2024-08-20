@@ -8,6 +8,11 @@
 .container p {
     font-size: 20px;
     margin: 20px 0;
+    color: #dd293d;
+}
+
+.last_p {
+    color: black !important;
 }
 
 .container img {
@@ -17,14 +22,14 @@
 }
 
 .highlight {
-    color: #452543;
+    color: #dd293d;
 }
 
 
 @media screen and (max-width: 768px) {
     .container {
         font-size: 18px;
-        width: 300px;
+        width: 350px;
     }
 
     .container p {

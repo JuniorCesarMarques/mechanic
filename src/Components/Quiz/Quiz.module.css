@@ -1,0 +1,46 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+  }
+  
+  .answersContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      color: white;
+  }
+  
+  .main_container p {
+      padding: 10px 30px;
+      background-color: #333;
+      border-radius: 10px;
+      width: 200px;
+  }
+  
+  .main_container button {
+      padding: 10px 40px;
+      background: #dd293b;
+      color: white;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 10px;
+  
+  }
+  
+  .error {
+      color: red;
+      background: red;
+  }

@@ -8,7 +8,7 @@
   
   .title {
     color: #fff; /* Cor do texto */
-    background-color: #452543; /* Cor de fundo do texto */
+    background-color: #dd293d; /* Cor de fundo do texto */
     padding: 20px 0;
     margin: 0;
     font-weight: bold;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center; /* Centraliza o conteúdo verticalmente */
-    background-color: #452543; /* Cor de fundo */
+    background-color: #dd293d; /* Cor de fundo */
     color: #fff; /* Cor do texto */
     padding: 0 0 20px;
     width: 100%; /* Ocupa toda a largura disponível */

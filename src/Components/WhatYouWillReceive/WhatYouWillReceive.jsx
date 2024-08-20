@@ -7,7 +7,6 @@ const WhatYouWillReceive = () => {
       <h1>O que você vai ter acesso no pacote:</h1>
       <div className={styles.main_container_content}>
       <div className={styles.container_content}>
-          <img src={img} />
           <div className={styles.container_text}>
             <h2>manuais DE funcionamento motos Honda</h2>
             <p>
@@ -20,7 +19,6 @@ const WhatYouWillReceive = () => {
         </div>
         </div>
         <div className={styles.container_content}>
-          <img src={img} />
           <div className={styles.container_text}>
             <h2>manuais DE funcionamento motos Yamaha</h2>
             <p>
@@ -33,7 +31,6 @@ const WhatYouWillReceive = () => {
           </div>
         </div>
         <div className={styles.container_content}>
-          <img src={img} />
           <div className={styles.container_text}>
             <h2>manuais de funcionamento motos Dafra</h2>
             <p>
@@ -46,7 +43,6 @@ const WhatYouWillReceive = () => {
           </div>
         </div>
         <div className={styles.container_content}>
-          <img src={img} />
           <div className={styles.container_text}>
             <h2>Manual de Funcionamento para Motos Suzuki</h2>
             <p>
@@ -58,7 +54,6 @@ const WhatYouWillReceive = () => {
           </div>
         </div>
         <div className={styles.container_content}>
-          <img src={img} />
           <div className={styles.container_text}>
             <h2>Manual de Funcionamento para Motos Kasinski</h2>
             <p>

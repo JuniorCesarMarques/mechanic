@@ -4,7 +4,7 @@
     border: none;
     padding: 15px 5px;
     width: 300px;
-    background: #452543;
+    background: #dd293d;
     border-radius: 3px;
     color: white;
     font-weight: bold;
@@ -15,5 +15,6 @@
   @media screen and (min-width: 768px) {
     .container {
       width: 450px;
+      font-size: 15px;
     }
   }
