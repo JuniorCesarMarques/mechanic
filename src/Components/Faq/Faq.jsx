@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './Faq.module.css';
-import faqData from './faqData';
+import faqData from './faqData.js';
 import { motion } from 'framer-motion';
 import { IoIosArrowDown } from "react-icons/io";
 
