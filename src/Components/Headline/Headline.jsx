@@ -1,5 +1,5 @@
 import styles from './Headline.module.css';
-import img from '../../assets/headline-image.svg';
+import img from '../../assets/headline-image.jpeg';
 import Button from '../Button/Button';
 
 const Headline = () => {
