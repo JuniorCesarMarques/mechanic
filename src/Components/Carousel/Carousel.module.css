@@ -1,13 +1,21 @@
+.carousel {
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.img_container img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+
 @media screen and (max-width: 768px) {
-  .carousel {
-    text-align: center;
-  }
-  
   .title {
-    text-align: center;
     font-size: 16px;
-    text-transform: uppercase;
-    margin: 15px 0;
   }
   
   .img_container {
@@ -19,6 +27,5 @@
   
   .img_container img {
     width: 300px;
-    border-radius: 10px;
   }
 }
