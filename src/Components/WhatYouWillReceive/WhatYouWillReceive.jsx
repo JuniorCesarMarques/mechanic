@@ -1,5 +1,4 @@
 import styles from "./WhatYouWillReceive.module.css";
-import img from "../../assets/headline-image.png";
 
 const WhatYouWillReceive = () => {
   return (

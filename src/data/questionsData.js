@@ -1,137 +1,102 @@
 const questions = [
     {
-      question: "Qual o seu nível de experiência com reparos de motocicletas?",
+      question: "Quer reparar defeitos difíceis em motos de forma rápida e fácil?",
       answer: [
-        "Iniciante",
-        "Intermediário",
+        "Sim, claro!",
+        "Depende...",
         "Avançado",
+        "Não, gosto de desafios (mas nem tanto)."
       ]
     },
     {
-      question: "Qual tipo de moto você costuma reparar?",
+      question: "Está atrás de manuais completos para todas as marcas?",
       answer: [
-        "Honda",
-        "Yamaha",
-        "Suzuki",
-        "Dafra",
-        "Kasinski"
+        "Com certeza!",
+        "Pode ser",
       ]
     },
     {
-      question: "Você gostaria de otimizar o tempo que gasta em diagnósticos e reparos?",
+      question: "Perde muito tempo procurando defeitos e identificando problemas mecânicos?",
       answer: [
-        "Sim",
-        "Não",
-      ]
-    },
-    {
-      question: "Você se sente frustrado quando não consegue identificar rapidamente defeitos em motos?",
-      answer: [
-        "Sim",
-        "Não",
-      ]
-    },
-    {
-      question: "A falta de informações completas sobre a moto que está reparando já causou atrasos em seus consertos?",
-      answer: [
-        "Sim",
-        "Não",
+        "Sim, sempre!",
+        "Às vezes.",
       ],
     },
     {
-      question: "Você passa horas procurando a causa de problemas em motos sem sucesso?",
+      question: "Quer ser mais ágil nos reparos, mas não sabe como?",
       answer: [
-        "Sim",
-        "Não"
-      ]
-      
-    },
-    {
-      question: "Clientes já expressaram insatisfação devido à demora nos reparos?",
-      answer: [
-        "Sim",
-        "Não"
+        "Sim, estou perdido!",
+        "Talvez, só falta um empurrão",
       ]
     },
     {
-      question: "Você acha que a falta de acesso a manuais detalhados está afetando seu desempenho?",
+      question: "Sabia que tem um manual de reparos com mais de 40 modelos de motos?",
       answer: [
-        "Sim",
-        "Não"
+        "Não, mas já quero!",
+        "Interessante.",
       ]
     },
     {
-      question: "Sabia que existe um manual completo que pode ajudar a identificar e consertar defeitos rapidamente em motos?",
+      question: "Quer acesso permanente a esses manuais?",
       answer: [
-        "Sim",
-        "Não"
+        "Com certeza!",
+        "Talvez",
       ]
     },
     {
-      question: "Você acredita que ter acesso a manuais detalhados e atualizados poderia acelerar seus diagnósticos?",
+      question: "Gosta da ideia de acessar manuais direto de qualquer dispositivo?",
       answer: [
-        "Sim",
-        "Não"
+        "Sim, perfeito!",
+        "Pode ser",
       ]
     },
     {
-      question: "Onde você imagina estar se pudesse resolver problemas de motos com muito mais eficiência?",
+      question: "Quer parar de perder horas procurando defeitos e otimizar o tempo de conserto em 10 vezes?",
       answer: [
-        "Em uma oficina mais produtiva",
-        "Com mais tempo livre",
-        "Com clientes mais satisfeitos"
+        "Sim, por favor!",
+        "Talvez...",
+        "Não, adoro perder horas..."
       ]
     },
     {
-      question: "Você entendeu que ter um método detalhado e atualizado pode otimizar seu tempo em até 10x?",
+      question: "Acha que esses manuais vão facilitar sua vida?",
       answer: [
-        "Sim",
-        "Não"
+        "Com certeza!",
+        "Talvez",
       ]
     },
     {
-      question: "Acha que receber informações completas e passo a passo para diferentes marcas de motos ajudaria a aumentar seu desempenho?",
+      question: "Imagina ter uma oficina mais produtiva?",
       answer: [
-        "Sim",
-        "Não"
+        "Sim, seria incrível!",
+        "Pode ser.",
+        "Não, gosto do caos..."
       ]
     },
     {
-      question: "Gostaria de ter acesso vitalício a manuais para diversas marcas de motos, disponíveis 24h por dia?",
+      question: "Compraria o pacote completo com desconto?",
       answer: [
-        "Sim",
-        "Não"
+        "Sim, manda ver!",
+        "Talvez",
+        "Não, gosto de pagar mais caro..."
       ]
     },
     {
-      question: "Você está interessado em receber um pacote completo que inclui manuais atualizados e bônus exclusivos?",
+      question: "Quer testar com a garantia de 7 dias?",
       answer: [
-        "Sim",
-        "Não"
+        "Sim, sem riscos!",
+        "Pode ser.",
+        "Não, prefiro arriscar..."
       ]
     },
     {
-      question: "Você prefere pagar um preço reduzido agora e ter acesso a um conteúdo que pode transformar seu trabalho?",
+      question: "Está pronto para elevar seus reparos a outro nível?",
       answer: [
-        "Sim",
-        "Não"
+        "Sim, estou mais que pronto!",
+        "Quase lá...",
+        "Não, estou bem onde estou..."
       ]
     },
-    {
-      question: "Acha que uma garantia de 15 dias e um desconto especial são boas razões para aproveitar esta oferta agora?",
-      answer: [
-        "Sim",
-        "Não"
-      ]
-    },
-    {
-      question: "Você quer garantir seu acesso ao pacote completo de manuais com um desconto exclusivo antes que a promoção termine?",
-      answer: [
-        "Sim",
-        "Não"
-      ]
-    }
-
   ];
   
 

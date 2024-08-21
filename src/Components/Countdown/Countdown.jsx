@@ -44,7 +44,6 @@ const Countdown = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Oferta por tempo limitado!</h2>
       <div className={styles.countdown}>
         <div className={styles.timeUnit}>
           <span className={styles.number}>{hours}</span>

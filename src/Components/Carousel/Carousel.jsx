@@ -29,7 +29,7 @@ const data = [
 
 const Carousel = () => {
 
-  const [width, setWidth] = useState();
+  const [width, setWidth] = useState(window.innerWidth);
 
   const handleWidth = () => {
     setWidth(window.innerWidth)

@@ -1,5 +1,4 @@
 .container {
-    margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 14px;
     text-align: center;
@@ -8,7 +7,7 @@
   
   .title {
     color: #fff; /* Cor do texto */
-    background-color: #dd293d; /* Cor de fundo do texto */
+    background-color: #0E2159; /* Cor de fundo do texto */
     padding: 20px 0;
     margin: 0;
     font-weight: bold;
@@ -18,9 +17,9 @@
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center; /* Centraliza o conteúdo verticalmente */
-    background-color: #dd293d; /* Cor de fundo */
+    background-color: #0E2159; /* Cor de fundo */
     color: #fff; /* Cor do texto */
-    padding: 0 0 20px;
+    padding: 20px 0;
     width: 100%; /* Ocupa toda a largura disponível */
     box-sizing: border-box; /* Inclui padding na largura total */
     font-family: Arial, sans-serif; /* Fonte padrão */
