@@ -1,6 +1,5 @@
 .container {
     text-align: center;
-    text-transform: uppercase;
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -13,7 +12,8 @@
 
 .container h1 {
     font-size: 25px;
-    width: 80vw;
+    width: 95vw;
+    text-transform: uppercase;
     
 }
 
@@ -25,8 +25,9 @@
 }
 
 
-.last_p {
+.last_title {
     color: black !important;
+    font-size: 15px;
 }
 
 .container img {
@@ -34,7 +35,6 @@
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    border: 5px solid white;
 }
 
 .highlight {
@@ -44,6 +44,12 @@
 
 
 @media screen and (max-width: 768px) {
+    .container {
+        gap: 15px;
+    }
+    .container h3 {
+        padding: 15px 0;
+    }
     .container  h1 {
         font-size: 18px;
     }
@@ -52,9 +58,15 @@
         font-size: 20px;
     }
 
-    .container p {
+    .highlight {
+        font-size: 14px;
+    }
+
+    .subHeadline {
         font-size: 14px;
         font-weight: bold;
+        width: 300px;
+
     }
 
     .container img {

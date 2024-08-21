@@ -1,6 +1,6 @@
 import styles from "./Offer.module.css";
 import Button from "../Button/Button";
-import img from "../../assets/headline-image.jpeg";
+import img from "../../assets/headline-image.png";
 import img2 from "../../assets/payment.png";
 
 const Offer = () => {

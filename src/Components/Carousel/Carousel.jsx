@@ -48,7 +48,7 @@ const Carousel = () => {
     <div className={styles.carousel}>
     <h1 className={styles.title}>Alguns dos modelos disponíveis e +40:</h1>
       <Swiper
-        autoplay={{delay: 2500, disableOnInteraction: false, reverseDirection: false}}
+        // autoplay={{delay: 2500, disableOnInteraction: false, reverseDirection: false}}
         loop={true} 
         modules={[Navigation, Pagination, Autoplay]} 
         spaceBetween={30} 
