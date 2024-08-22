@@ -13,20 +13,7 @@ const Advantages = () => {
         <h1>Vantagens do <span className={styles.highlight}>meu manual de reparo</span></h1>
         <div className={styles.cards_container}>
             <div className={styles.card}>
-                <div className={styles.svg_container}>
-                    <RiComputerLine />
-                    <h3>Bônus surpresa</h3>
-                </div>
-                <ul>
-                    <li><FaCheck /><p>Bônus 1</p></li>
-                    <li><FaCheck /><p>Bônus 2</p></li>
-                    <li><FaCheck /><p>Bônus 3</p></li>
-                    <li><FaCheck /><p>Bônus 4</p></li>
-                </ul>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.svg_container}>
-                    <RiComputerLine />  
+                <div className={styles.svg_container}> 
                     <h3>Acesso vitalício</h3>
                 </div>
                 <ul>
@@ -38,7 +25,6 @@ const Advantages = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.svg_container}>
-                    <RiComputerLine />
                     <h3>Modelos atualizados</h3>
                 </div>
                 <ul>
@@ -50,8 +36,7 @@ const Advantages = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.svg_container}>
-                    <RiComputerLine />
-                    <h3>conteudo de {year}</h3>
+                    <h3>conteudo de {year}/{year + 1}</h3>
                 </div>
                 <ul>
                     <li><FaCheck /><p>Novos manuais</p></li>

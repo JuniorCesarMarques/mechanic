@@ -12,6 +12,7 @@ import Advantages from '../Advantages/Advantages';
 import Offer from '../Offer/Offer';
 import Faq from '../Faq/Faq';
 import Guarantee from '../Guarantee/Guarantee';
+import logo from '../../assets/logo.svg';
 
 const Quiz = () => {
   const [qIndex, setQIndex] = useState(0);
@@ -37,7 +38,8 @@ const Quiz = () => {
 
   return (
     <>
-      {false ? <div className={styles.main_container}>
+      {qIndex < questions.length ? <div className={styles.main_container}>
+        <img src={logo} />
         <div className={styles.container}>
           <div className="questionContainer">
             <h3>{questions[qIndex].question}</h3>
@@ -47,7 +49,7 @@ const Quiz = () => {
               <p
                 onClick={() => handleSelect(index)}
                 key={index}
-                style={{ background: index === selected && "#dd293b"}}
+                style={{ background: index === selected && "#fbbf1b"}}
               >
                 {item}
               </p>

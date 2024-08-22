@@ -1,3 +1,49 @@
 .container {
     font-size: 10px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.container h1 {
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+.container ul {
+    list-style: none;
+}
+
+
+.container li {
+    font-size: 15px;
+    display: flex;
+    gap: 10px;   
+}
+
+.container svg {
+    width: 20px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .container img {
+        width: 700px;
+    }
+
 }

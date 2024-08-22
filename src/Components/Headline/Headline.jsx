@@ -1,14 +1,16 @@
 import styles from './Headline.module.css';
 import img from '../../assets/headline-image.png';
 import Button from '../Button/Button';
+import img_logo from '../../assets/logo.svg'
 
 const Headline = () => {
   return (
     <div className={styles.container}>
         <h3>Oferta por tempo limitado</h3>
+        <img className={styles.logo} src={img_logo} />
         <div>
           <h1>
-          Encontre e Resolva Defeitos Complexos e Difíceis em Motos de Forma Rápida e Fácil com o Passo a Passo Completo
+          Encontre e Resolva Defeitos Complexos e Difíceis em Motos de <span className={styles.highlight}>Forma Rápida e Fácil</span> com o Passo a Passo Completo
           </h1>
         </div>
         <p className={styles.subHeadline}>Manual de reparo para motos que inclui manuais de todas as marcas</p>
