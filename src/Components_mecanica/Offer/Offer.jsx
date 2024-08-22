@@ -1,0 +1,36 @@
+import styles from "./Offer.module.css";
+import Button from "../Button/Button";
+import img from "../../assets/mechanic/headline-image.png";
+import img2 from "../../assets/mechanic/payment.png";
+
+const Offer = () => {
+
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.img_container}>
+        <img src={img} />
+      </div>
+      <div className={styles.offer_container}>
+        <p className={styles.offer_title}>
+            Oferta Especial <br /> <span className={styles.secondary_color}>por tempo limitado</span>
+        </p>
+        <p>
+            de <span className={styles.line_through}>R$ 67,90</span> por apenas
+        </p>
+        <p className={styles.offer_price}>
+            4x de <span className={styles.secondary_background_color}>R$ 5,35*</span>
+        </p>
+        <p>
+            ou a vista por R$ 19,90
+        </p>
+        <Button>
+        sim, eu quero garantir meu pack agora mesmo!
+        </Button>
+        <img className={styles.payment_img} src={img2} />
+      </div>
+    </div>
+  );
+};
+
+export default Offer;
