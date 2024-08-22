@@ -4,19 +4,27 @@ import Mechanic from './Components_mecanica/Mechanic/Mechanic';
 import Therapist from './Components_terapeuta/Therapist/Therapist';
 import './index.css';
 
-const path = window.location.pathname;
+import {
+  createBrowserRouter,
+  RouterProvider
+} from 'react-router-dom';
 
-function App() {
-  if (path === '/tarot') {
-    return <Therapist />;
-  } else if (path === '/mecanica') {
-    return <Mechanic />
+const route = createBrowserRouter([
+  {
+    path: "/mecanica",
+    element: <Mechanic />
+  },
+  {
+    path: "/tarot",
+    element: <Therapist />
   }
-
-}
+])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <RouterProvider route={route}>
+      <Mechanic />
+      <Therapist />
+    </RouterProvider>
   </StrictMode>
 );
