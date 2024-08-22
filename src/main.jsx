@@ -5,11 +5,11 @@ import Therapist from './Components_terapeuta/Therapist/Therapist';
 import './index.css';
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider
 } from 'react-router-dom';
 
-const route = createBrowserRouter([
+const route = createHashRouter([
   {
     path: "/mecanica",
     element: <Mechanic />
