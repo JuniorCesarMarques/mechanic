@@ -30,8 +30,7 @@ const Therapist = () => {
       }
   
     };
-  
-  
+
     return (
       <>
         {qIndex < questions.length ? <div className={styles.main_container}>
@@ -44,7 +43,7 @@ const Therapist = () => {
                 <p
                   onClick={() => handleSelect(index)}
                   key={index}
-                  style={{ background: index === selected && "#fbbf1b"}}
+                  style={{ background: index === selected && "#452543"}}
                 >
                   {item}
                 </p>
@@ -57,7 +56,6 @@ const Therapist = () => {
         <>
     <HeadlineSection />
     <WhatYouWillReceive />
-    {/* <WaButton /> */}
     <Promise />
     <Carousel />
     <Countdown />

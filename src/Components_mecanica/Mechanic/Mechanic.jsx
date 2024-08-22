@@ -34,7 +34,6 @@ const Mechanic = () => {
 
   };
 
-
   return (
     <>
       {qIndex < questions.length ? <div className={styles.main_container}>

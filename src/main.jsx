@@ -22,7 +22,7 @@ const route = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider route={route}>
+    <RouterProvider router={route}>
       <Mechanic />
       <Therapist />
     </RouterProvider>
