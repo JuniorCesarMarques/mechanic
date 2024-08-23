@@ -9,11 +9,17 @@ import Faq from '../Faq/Faq';
 import questions from "../../data/therapist_quiz";
 import { useState } from 'react';
 import styles from './Therapist.module.css';
+import logo from '../../assets/Therapist/logo.svg';
 
 const Therapist = () => {
+
     const [qIndex, setQIndex] = useState(0);
     const [selected, setSelected] = useState(null);
     const [error, setError] = useState(false);
+
+
+    //Loading bar 
+    const [barwidth, setBarwidth] = useState(0);
   
     const handleSelect = (index) => {
       setSelected(index)
@@ -22,6 +28,7 @@ const Therapist = () => {
   
     const handleQuestions = () => {
       if(selected !== null) {
+        setBarwidth(prevBarWidth => prevBarWidth + 100 / questions.length)
         setSelected(null) //Limpa a resposta selecionada
         setQIndex((prevIndex) => prevIndex + 1);
         setError(false);
@@ -31,11 +38,19 @@ const Therapist = () => {
   
     };
 
+
     return (
       <>
         {qIndex < questions.length ? <div className={styles.main_container}>
+          <header className={styles.header}>
+            <span className={styles.header_text}>
+              Passo {qIndex + 1}/{questions.length}
+            </span>
+          <span style={{width: Math.floor(barwidth) + "vw"}}  className={styles.line}></span>
+          </header>
+          <img className={styles.logo} src={logo} alt="" />
           <div className={styles.container}>
-            <div className="questionContainer">
+            <div>
               <h3>{questions[qIndex].question}</h3>
             </div>
             <div className={styles.answersContainer}>
