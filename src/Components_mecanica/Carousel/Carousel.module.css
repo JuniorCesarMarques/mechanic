@@ -23,6 +23,7 @@
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     border-radius: 10px;
+    margin: 0 auto;
   }
   
   .img_container img {

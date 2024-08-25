@@ -4,9 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fbbf1b;
+    background: white;
     gap: 30px;
     padding-bottom: 30px;
+    width: 80vw;
+    margin: 0 auto;
     /* background-image: url("../../assets/background.svg");
     background-size: cover;
     background-position: center;
@@ -22,23 +24,14 @@
 .container h1 {
     margin-top: 30px;
     font-size: 25px;
-    width: 80vw;
     text-transform: uppercase;
     
 }
 
-.container h3 {
-    background-color: black;
-    color: white;
-    padding: 20px 0;
-    width: 100%;
+.subHeadline {
+    font-size: 25px;
 }
 
-
-.last_title {
-    color: black !important;
-    font-size: 15px;
-}
 
 .container img {
     width: 400px;
@@ -50,7 +43,7 @@
 .highlight {
     background-color: white;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -74,12 +67,12 @@
     }
 
     .highlight {
-        font-size: 14px;
+        font-size: 18px;
+        font-weight: bold;
     }
 
     .subHeadline {
         font-size: 14px;
-        font-weight: bold;
         width: 300px;
 
     }

@@ -22,7 +22,9 @@ const Feedback = () => {
 
   return (
     <div className={styles.container}>
-        <h1>Veja o que outros mecânicos estão falando:</h1>
+        <h1>Estatísticas que nos orgulham:</h1>
+        <h2>95% dos profissionais que usam nosso manual reportaram uma melhoria significativa na velocidade e qualidade dos reparos. <br />
+         98% dos nossos clientes recomendam o manual para outros profissionais da área.</h2>
         <Swiper
         modules={[Navigation, Pagination, Autoplay]} 
         autoplay={{delay: 4000, disableOnInteraction: false, reverseDirection: false}}
