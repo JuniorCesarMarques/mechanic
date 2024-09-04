@@ -1,5 +1,10 @@
 const faqData = [
     {
+        title: "Por quanto tempo tenho acesso?",
+        text: "Vitalício, você pode acessar sempre que desejar."
+
+    },
+    {
         title: "Quais são as Formas de Pagamento?",
         text: "Você pode pagar com qualquer cartão, boleto ou PIX."
     },

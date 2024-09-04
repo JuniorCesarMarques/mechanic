@@ -14,6 +14,10 @@
     margin: 10px 0;
 }
 
+.container h3 {
+    width: 80vw;
+}
+
 /*Second part*/
 
 .second_container {
@@ -24,7 +28,8 @@
     align-items: center;
 }
 
-.second_container h1 {
+.loading_text {
+    color: black;
     text-align: center;
     font-size: 20px;
     margin-bottom: 10px;
@@ -36,6 +41,7 @@
     border: 3px solid black;
     border-radius: 10px;
     position: relative;
+    margin: 0 auto;
 
 }
 
@@ -43,8 +49,7 @@
     display: block;
     background: #333;
     height: 100%;
-    animation: animationBar 10s ease forwards;
-    position: absolute;
+
 }
 
 /*Chart*/
@@ -62,15 +67,14 @@
     align-items: end;
     gap: 7px;
     overflow: hidden;
-    animation: animationChart 8s ease;
     position: absolute;
-    bottom: 10px;
+    bottom: 80px;
 
 }
 
-.chartbar {
+.chartbar, .chartbar_you {
     width: 40px;
-    background: #333;
+    background: #ffbb00;
     color: white;
     font-size: 12px;
     display: flex;
@@ -79,27 +83,46 @@
 
 }
 
+.chartbar_you::after {
+    display: block;
+    content: "Você";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 155px;
+    animation: animationYou 4s;
+}
 
-@keyframes animationChart {
+.chart_button {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 40px;
+    background: #fbbf1b;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+@keyframes animationYou {
     from {
-        height: 0px;
+        opacity: 0;
     }
 
     to {
-        height: 500px;
+        opacity: 100%;
     }
 }
 
-
-
-@keyframes animationBar {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
-    }
+.level_text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
 }
 
 .line {
@@ -108,7 +131,6 @@
     position: absolute;
     top: 60px;
     left: 0;
-
 
 }
 
@@ -143,10 +165,10 @@
   }
   
   .main_container p {
-      padding: 10px 30px;
+      padding: 10px;
       background-color: #333;
       border-radius: 10px;
-      width: 200px;
+      width: 300px;
   }
   
   .main_container button {

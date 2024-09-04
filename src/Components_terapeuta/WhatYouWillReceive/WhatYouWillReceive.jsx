@@ -1,20 +1,23 @@
 import styles from './WhatYouWillReceive.module.css';
-import { FaCircleCheck } from "react-icons/fa6";
-import whaYouWillReceiveData from './WhatYouWillReceiveData';
+import img_1 from '../../assets/Therapist/feedback/feedback_1.png'
+import img_2 from '../../assets/Therapist/feedback/feedback_2.png'
+import img_3 from '../../assets/Therapist/feedback/feedback_3.png'
+import img_pc from '../../assets/Therapist/whatYouWillReceive/img.png'
+import img_mobile from '../../assets/Therapist/whatYouWillReceive/img_mobile.png'
 
 const WhatYouWillReceive = () => {
     
   return (
     <div className={styles.container}>
-        <div className={styles.container_title}>
-            <h1>Veja o que você vai receber</h1>
-        </div>
+          <img className={styles.img_pc} src={img_pc} />
+          <img className={styles.img_mobile} src={img_mobile} />
         <div className={styles.container_content}>
-        <ul>
-        {whaYouWillReceiveData.map((item, index) => (
-            <li key={index}><FaCircleCheck /> {item.text}</li>
-        ))}
-        </ul>
+            <h1>Veja o que estão falando da pack</h1>
+          <div className={styles.img_container}>
+            <img src={img_1} />
+            <img src={img_2} />
+            <img src={img_3} />
+          </div>
         </div>
     </div>
   )

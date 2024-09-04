@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./HeadlineSection.module.css";
-import img from '../../assets/therapist/headlineSection.svg';
+import img from '../../assets/therapist/headlineSection.png';
 
 const HeadlineSection = () => {
 
@@ -9,10 +9,11 @@ const HeadlineSection = () => {
       <h2>Promoção por tempo limitado</h2>
       <div>
         <h1>
-          Canva para oraculistas
+          Pack Canva Para Tarô
         </h1>
         <p>
-          O maior pack de Artes Editáveis para Oraculistas.
+        Somente com nossos templates, suas postagens de Tarô se <span className={styles.highlight}>tornarão irresistíveis</span> e gerarão <span className={styles.highlight}
+        >engajamento instantâneo!</span>
         </p>
       </div>
       <img src={img} />

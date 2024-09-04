@@ -1,17 +1,34 @@
 import HeadlineSection from "../HeadlineSection/HeadlineSection";
 import WhatYouWillReceive from "../WhatYouWillReceive/WhatYouWillReceive";
 import Promise from "../Promise/Promise";
-import Carousel from "../Carousel/Carousel";
+import HighLight from '../HighLight/Highlight';
+import BeforeAfter from "../BeforeAfter/BeforeAfter";
 import Countdown from "../Countdown/Countdown";
 import Offer from "../Offer/Offer";
 import Guarantee from "../Guarantee/Guarantee";
 import Faq from "../Faq/Faq";
+import Footer from '../Footer/Footer';
 import questions from "../../data/therapist_quiz";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Therapist.module.css";
 import logo from "../../assets/Therapist/logo.svg";
 
+import ReactPixel from 'react-facebook-pixel';
+import tracking from '../../tracking/trackingScript';
+
+
 const Therapist = () => {
+
+  tracking();
+
+  useEffect(() => {
+    console.log("teste")
+    ReactPixel.init('538931935139904'); // Substitua pelo seu ID de pixel
+    ReactPixel.pageView(); // Registra a visualização da página
+
+    document.title = "Tarot"
+  }, []);
+
   const [qIndex, setQIndex] = useState(0);
   const [selected, setSelected] = useState(null);
 
@@ -30,7 +47,7 @@ const Therapist = () => {
 
   return (
     <>
-      {qIndex < questions.length ? (
+      {false ? (
         <div className={styles.main_container}>
           <header className={styles.header}>
             <span className={styles.header_text}>
@@ -63,12 +80,14 @@ const Therapist = () => {
         <>
           <HeadlineSection />
           <WhatYouWillReceive />
+          <HighLight />
           <Promise />
-          <Carousel />
+          <BeforeAfter />
           <Countdown />
           <Offer />
           <Guarantee />
           <Faq />
+          <Footer />
         </>
       )}
     </>

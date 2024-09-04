@@ -2,12 +2,12 @@
   text-transform: uppercase;
   border: none;
   padding: 15px 5px;
-  width: 350px;
-  background: #452543;
+  width: 330px;
+  background: #295f4a;
   border-radius: 3px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 @media screen and (min-width: 768px) {

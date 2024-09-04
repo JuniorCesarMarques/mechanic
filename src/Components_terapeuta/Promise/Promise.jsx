@@ -6,20 +6,20 @@ const Promise = () => {
     <div className={styles.container}>
       <div className={styles.text_container}>
         <h1>
-          O pack para Oraculistas veio para facilitar na hora de criar suas artes.
+          Pra quem é?
         </h1>
         <ul>
           <li>
-            <p>Para todos os Oraculistas que buscam qualidade em artes prontas criativas para o seu negócio.</p>
+            <p>Deseja atrair potenciais clientes por meio das redes sociais e transmitir uma imagem profissional.</p>
           </li>
           <li>
-            <p>Não sabe como criar as artes? Ou até mesmo não tem tempo de fazer suas artes para postar nas suas redes sociais?</p>
+            <p>Quer ter um feed bonito e profissional que transmita autoridade</p>
           </li>
           <li>
-            <p>Com o Canva para Terapeutas você vai ter conteúdo de alto nível para aproveitar ao máximo mesmo não sabendo usar o Aplicativo Canva.</p>
+            <p>Não tem muito tempo parar criar artes do zero</p>
           </li>
           <li>
-            <p>Confira abaixo as principais Vantagens!</p>
+            <p>Não tem muito conhecimento de design e perde muito tempo tentando criar suas artes</p>
           </li>
         </ul>
       </div>

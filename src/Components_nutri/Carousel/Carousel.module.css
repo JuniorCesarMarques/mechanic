@@ -1,0 +1,14 @@
+.carousel {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.img_container img {
+  width: 400px;
+}

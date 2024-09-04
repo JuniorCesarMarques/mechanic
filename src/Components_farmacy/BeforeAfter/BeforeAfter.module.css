@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color);
+
+}
+
+.img_container {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.without_pack {
+    color: red;
+}
+
+.container p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img_container img {
+    width: 180px;
+}
+
+@media screen and (min-width: 768px){
+    .img_container img {
+        width: 300px;
+    }
+}
+

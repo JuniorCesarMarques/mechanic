@@ -74,12 +74,39 @@ const questions = [
     ]
   },
   {
-    question: "Ao avaliar a eficiência dos seus reparos, como você se classificaria?",
+    question: "Você acredita que ter acesso a um manual completo de reparos, com guias passo a passo, poderia ajudá-lo a diagnosticar problemas com mais precisão e rapidez?",
     answer: [
-      "Preciso de ajuda, pois estou sempre atrasado.",
-      "Posso melhorar, mas estou no caminho certo.",
-      "Sou eficiente, mas quero ser ainda melhor.",
-      "Estou muito satisfeito com o meu desempenho."
+      "Sim, isso faria muita diferença.",
+      "Talvez, vale a pena tentar.",
+      "Não tenho certeza, mas estou aberto(a) a novas ideias."
+    ]
+  },
+  {
+    question: "E se você pudesse realizar reparos com uma eficiência tão alta que seus clientes não só saíssem satisfeitos, mas também voltassem com amigos?",
+    answer: [
+      "Nossa, isso seria incrível!",
+      "Não tenho certeza, mas estou curioso(a)."
+    ]
+  },
+  {
+    question: "Você gostou da ideia de ter um manual completo que simplifica o processo de diagnóstico e reparo?",
+    answer: [
+      "Sim, gostei muito",
+      "Prefiro continuar com minhas estratégias atuais"
+    ]
+  },
+  {
+    question: "Você quer implementar essas técnicas comprovadas para otimizar os reparos em sua oficina?",
+    answer: [
+      "Sim, quero otimizar meus reparos",
+      "Vou tentar por conta própria"
+    ]
+  },
+  {
+    question: "Você gostaria de fazer parte de uma comunidade de mecânicos que estão aplicando essas técnicas com sucesso e compartilhar experiências?",
+    answer: [
+      "Sim, um grupo de apoio e troca de ideias seria ótimo",
+      "Prefiro trabalhar sozinho(a)"
     ]
   }
 ];

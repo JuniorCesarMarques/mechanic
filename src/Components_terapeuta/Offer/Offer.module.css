@@ -17,6 +17,11 @@
     gap: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    background: #f4eee7;
+    width: 320px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px;
 
 
 }
@@ -26,8 +31,22 @@
     font-weight: bold;
 }
 
+.check_section {
+    list-style: none;
+}
+
+.check_section svg {
+    color: rgb(0, 134, 0);
+}
+
+.check_section li {
+    display: flex;
+    justify-content: baseline;
+    gap: 5px;
+}
+
 .secondary_color {
-    color: #452543;
+    color: #295f4a;
 }
 
 .line_through {
@@ -41,7 +60,7 @@
 }
 
 .secondary_background_color {
-    background: #452543;
+    background: #295f4a;
     color: white;
 }
 
@@ -52,6 +71,7 @@
 @media screen and (min-width: 768px) {
     .offer_container {
         font-size: 25px;
+        width: 500px;
     }
 
     .offer_title {

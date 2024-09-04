@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 30px 15px;
+    background: #f4eee7;
+    padding: 30px 0;
 }
 
 .text_container {
@@ -18,12 +19,19 @@
 }
 
 .text_container li {
-    background-color: #452543;
+    color: white;
     padding: 10px;
+    border-radius: 10px;
+    background: #295f4a;
 }
 
 .text_container h1 {
     font-size: 23px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
     text-transform: uppercase;
+    background: #295f4a;
+    color: white;
+    padding: 15px;
+    width: fit-content;
+
 }
