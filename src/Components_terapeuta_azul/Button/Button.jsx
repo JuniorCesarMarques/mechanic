@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Button = ({children}) => {
   return (
-    <a href="https://pay.kiwify.com.br/k64DDgm">
+    <a href="https://pay.kiwify.com.br/C9O2X88">
       <motion.button className={styles.container}
       initial={{scale: 1}}
       animate={{scale: 1.1}}

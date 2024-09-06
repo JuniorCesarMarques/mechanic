@@ -14,7 +14,7 @@ const BeforeAfter = () => {
         </div>
         <div>
           <img src={img_1} />
-          <p>Com a Pack</p>
+          <p className={styles.with_pack}>Com a Pack</p>
         </div>
       </div>
     </div>

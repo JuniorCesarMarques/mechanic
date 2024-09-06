@@ -48,7 +48,9 @@ const Offer = () => {
           <li><IoCheckbox /> 50 artes para o Feed</li>
           <li><IoCheckbox /> 40 artes para Stories</li>
           <li><IoCheckbox /> 40 Capa de Destaque</li>
+          <li><IoCheckbox /> 5 Carrosseis infinitos</li>
           <li><IoCheckbox /> Mini Curso Canva</li>
+          <li><IoCheckbox /> Atualizações constantes</li>
           <li className={styles.gift}><BsFillGiftFill /> Bônus Paleta de cores</li>
           <li className={styles.gift}><BsFillGiftFill /> Bônus Legendas prontas</li>
           <li className={styles.gift}><BsFillGiftFill /> Bônus Calendário de conteúdo</li>

@@ -1,7 +1,6 @@
 import HeadlineSection from "../HeadlineSection/HeadlineSection";
 import WhatYouWillReceive from "../WhatYouWillReceive/WhatYouWillReceive";
 import Promise from "../Promise/Promise";
-import HighLight from '../HighLight/Highlight';
 import BeforeAfter from "../BeforeAfter/BeforeAfter";
 import Countdown from "../Countdown/Countdown";
 import Offer from "../Offer/Offer";
@@ -15,6 +14,8 @@ import logo from "../../assets/Therapist/logo.svg";
 
 import ReactPixel from 'react-facebook-pixel';
 import tracking from '../../tracking/trackingScript';
+import Benefits from "../Benefits/Benefits";
+import HowToReceive from "../HowToReceive/HowToReceive";
 
 
 const Therapist = () => {
@@ -80,7 +81,8 @@ const Therapist = () => {
         <>
           <HeadlineSection />
           <WhatYouWillReceive />
-          <HighLight />
+          <Benefits />
+          <HowToReceive />
           <Promise />
           <BeforeAfter />
           <Countdown />

@@ -1,10 +1,12 @@
 import HeadlineSection from "../HeadlineSection/HeadlineSection";
 import WhatYouWillReceive from "../WhatYouWillReceive/WhatYouWillReceive";
+import HowToReceive from "../HowToReceive/HowToReceive";
 import Promise from "../Promise/Promise";
 import HighLight from '../HighLight/Highlight';
 import BeforeAfter from "../BeforeAfter/BeforeAfter";
 import Countdown from "../Countdown/Countdown";
 import Offer from "../Offer/Offer";
+import Benefits from '../Benefits/Benefits';
 import Guarantee from "../Guarantee/Guarantee";
 import Faq from "../Faq/Faq";
 import Footer from '../Footer/Footer';
@@ -26,7 +28,7 @@ const Therapist = () => {
     ReactPixel.init('538931935139904'); // Substitua pelo seu ID de pixel
     ReactPixel.pageView(); // Registra a visualização da página
 
-    document.title = "Tarot"
+    document.title = "Oraculista";
   }, []);
 
   const [qIndex, setQIndex] = useState(0);
@@ -80,7 +82,9 @@ const Therapist = () => {
         <>
           <HeadlineSection />
           <WhatYouWillReceive />
-          <HighLight />
+          {/* <HighLight /> */}
+          <Benefits />
+          <HowToReceive />
           <Promise />
           <BeforeAfter />
           <Countdown />

@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #f4eee7;
     background-image: url("../../assets/TherapistBlue/BeforeAfter/Blackgroud.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +21,10 @@
 
 .without_pack {
     color: red;
+}
+
+.with_pack {
+    color: green;
 }
 
 .container p {

@@ -12,7 +12,7 @@ const WhatYouWillReceive = () => {
           <img className={styles.img_pc} src={img_pc} />
           <img className={styles.img_mobile} src={img_mobile} />
         <div className={styles.container_content}>
-            <h1>Veja o que estão falando da pack</h1>
+            <h1>Veja o que estão <br /> falando da pack</h1>
           <div className={styles.img_container}>
             <img src={img_1} />
             <img src={img_2} />

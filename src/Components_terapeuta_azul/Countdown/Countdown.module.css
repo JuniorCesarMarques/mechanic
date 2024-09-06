@@ -4,7 +4,7 @@
   font-size: 14px;
   text-align: center;
   width: 100%; /* Ocupa toda a largura disponível */
-  background: var(--primary-color);
+  background: #0f5ea0;
 }
 
 .title {

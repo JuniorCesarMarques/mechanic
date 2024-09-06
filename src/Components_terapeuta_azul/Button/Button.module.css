@@ -2,16 +2,18 @@
   text-transform: uppercase;
   border: none;
   padding: 15px 5px;
-  width: 330px;
-  background: (var(--primary-color));
+  width: 290px;
+  background: #0f5ea0;
   border-radius: 3px;
   color: white;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 9px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 450px;
+    font-size: 14px;
   }
 }

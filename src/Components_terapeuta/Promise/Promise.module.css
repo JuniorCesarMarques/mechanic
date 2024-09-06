@@ -6,9 +6,6 @@
     padding: 30px 0;
 }
 
-.text_container {
-    width: 350px;
-}
 
 .text_container ul {
     display: flex;
@@ -19,14 +16,25 @@
 }
 
 .text_container li {
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    background: #295f4a;
+    color: black;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text_container li p {
+    width: 250px;
+}
+
+.text_container li svg {
+    color: #295f4a;
+    width: 30px;
+    font-size: 20px;
 }
 
 .text_container h1 {
-    font-size: 23px;
+    font-size: 20px;
     margin: 0 auto 20px;
     text-transform: uppercase;
     background: #295f4a;

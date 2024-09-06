@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.container h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.img_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img_container h2 {
+    margin: 30px 0 10px;
+}
+
+.img_container img {
+    width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+    .img_container img {
+        width: 700px;
+    }
+}

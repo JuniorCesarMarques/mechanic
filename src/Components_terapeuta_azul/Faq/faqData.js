@@ -9,7 +9,7 @@ const faqData = [
         text: "Você pode pagar com qualquer cartão, boleto ou PIX."
     },
     {
-        title: "Como acesso o contéudo?",
+        title: "Como acesso o conteúdo?",
         text: "O acesso à Área de Membros é enviado para seu e-mail imediatamente após a confirmação do pagamento."
     },
     {

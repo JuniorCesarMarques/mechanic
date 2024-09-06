@@ -45,10 +45,13 @@ const Offer = () => {
             Oferta Especial <br /> <span className={styles.secondary_color}>por tempo limitado</span>
         </p>
         <ul className={styles.check_section}>
-          <li><IoCheckbox /> 50 artes para o Feed</li>
-          <li><IoCheckbox /> 40 artes para Stories</li>
-          <li><IoCheckbox /> 40 Capa de Destaque</li>
+          <li><IoCheckbox /> 50 Artes para o Feed</li>
+          <li><IoCheckbox /> 40 Artes para Stories</li>
+          <li><IoCheckbox /> 70 Capas de Destaque</li>
+          <li><IoCheckbox /> 5 Carrosseis infinitos</li>
           <li><IoCheckbox /> Mini Curso Canva</li>
+          <li><IoCheckbox /> Acesso vitalício</li>
+          <li><IoCheckbox /> Atualizações constantes</li>
           <li className={styles.gift}><BsFillGiftFill /> Bônus Paleta de cores</li>
           <li className={styles.gift}><BsFillGiftFill /> Bônus Legendas prontas</li>
           <li className={styles.gift}><BsFillGiftFill /> Bônus Calendário de conteúdo</li>
@@ -57,10 +60,10 @@ const Offer = () => {
             de <span className={styles.line_through}>R$ 159,90</span> por apenas
         </p>
         <p className={styles.offer_price}>
-            6x de <span className={styles.secondary_background_color}>R$ 8,84*</span>
+            6x de <span className={styles.secondary_background_color}>R$ 10,52*</span>
         </p>
         <p>
-            ou a vista por R$ 47,90
+            ou a vista por R$ 57,00
         </p>
         <Button>
         sim, eu quero garantir meu pack agora mesmo!

@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container h1 {
+    background: #295f4a;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img_container {
+    width: 330px;
+    max-width: 600px; /* Ajuste conforme necessário */
+    overflow: hidden;
+  }
+  
+  .img_slide {
+    width: 330px;
+    height: auto;
+    object-fit: cover;
+    margin: 20px 0;
+
+  }
+  
+  .prevButton, .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+  
