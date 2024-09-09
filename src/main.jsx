@@ -41,13 +41,7 @@ const route = createHashRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={route}>
-        <Mechanic />
-        <Therapist />
-        <Nutri />
-        <Realtor />
-        <Farmacy />
-    </RouterProvider>
-  </StrictMode>
+  <>
+  <RouterProvider router={route}/>
+  </>
 );

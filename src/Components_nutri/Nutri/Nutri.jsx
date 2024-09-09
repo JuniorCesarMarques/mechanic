@@ -14,6 +14,7 @@ import logo from "../../assets/Therapist/logo.svg";
 import trackingScript from '../../tracking/trackingScript';
 import ReactPixel from 'react-facebook-pixel';
 import { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 
 
@@ -78,6 +79,7 @@ const Therapist = () => {
         </div>
       ) : (
         <>
+        <Link to="/tarot">voltar</Link>
           <HeadlineSection />
           <WhatYouWillReceive />
           <Promise />

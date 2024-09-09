@@ -6,28 +6,47 @@ import Countdown from "../Countdown/Countdown";
 import Offer from "../Offer/Offer";
 import Guarantee from "../Guarantee/Guarantee";
 import Faq from "../Faq/Faq";
-import Footer from '../Footer/Footer';
+import Footer from "../Footer/Footer";
 import questions from "../../data/therapist_quiz";
 import { useState, useEffect } from "react";
 import styles from "./Therapist.module.css";
 import logo from "../../assets/Therapist/logo.svg";
 
-import ReactPixel from 'react-facebook-pixel';
-import tracking from '../../tracking/trackingScript';
+import ReactPixel from "react-facebook-pixel";
+import tracking from "../../tracking/trackingScript";
 import Benefits from "../Benefits/Benefits";
 import HowToReceive from "../HowToReceive/HowToReceive";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const Therapist = () => {
+  const navigate = useNavigate();
+  const [state, setState] = useState(1);
+  console.log(state)
+
+  useEffect(() => {
+    const handleBackButton = () => {
+      console.log("Popstate detected");
+      navigate('/oraculista');
+    };
+
+    // Adiciona o listener para o evento 'popstate'
+    window.addEventListener('popstate', handleBackButton);
+
+    // Remove o listener quando o componente for desmontado
+    return () => {
+      window.removeEventListener('popstate', handleBackButton);
+    };
+  }, [navigate]);
 
   tracking();
 
   useEffect(() => {
-    console.log("teste")
-    ReactPixel.init('538931935139904'); // Substitua pelo seu ID de pixel
+    console.log("teste");
+    ReactPixel.init("858716625899967"); // Substitua pelo seu ID de pixel
     ReactPixel.pageView(); // Registra a visualização da página
 
-    document.title = "Tarot"
+    document.title = "Tarot";
   }, []);
 
   const [qIndex, setQIndex] = useState(0);
