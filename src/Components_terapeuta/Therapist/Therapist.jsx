@@ -16,28 +16,9 @@ import ReactPixel from "react-facebook-pixel";
 import tracking from "../../tracking/trackingScript";
 import Benefits from "../Benefits/Benefits";
 import HowToReceive from "../HowToReceive/HowToReceive";
-import { Link, useNavigate } from "react-router-dom";
 
 
 const Therapist = () => {
-  const navigate = useNavigate();
-  const [state, setState] = useState(1);
-  console.log(state)
-
-  useEffect(() => {
-    const handleBackButton = () => {
-      console.log("Popstate detected");
-      navigate('/oraculista');
-    };
-
-    // Adiciona o listener para o evento 'popstate'
-    window.addEventListener('popstate', handleBackButton);
-
-    // Remove o listener quando o componente for desmontado
-    return () => {
-      window.removeEventListener('popstate', handleBackButton);
-    };
-  }, [navigate]);
 
   tracking();
 
